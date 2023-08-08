@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form RExtra</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="logo.png">
+  </head>
+  <body>
+    <h1>Formulario de inconvenientes RExtra</h1>
+    <form action="/" method="POST">
+      <label for="nombre">Nombre completo:</label>
+      <input
+        type="text"
+        name="nombre"
+        id="nombre"
+        placeholder="¿Quien envia?"
+        minlength="25"
+        required
+      />
+
+      <br /><br />
+      <label for="correo">Correo institucional</label>
+      <input
+        type="email"
+        name="correo"
+        id="correo"
+        placeholder="correo institucional"
+        required
+      />
+
+      <br /><br />
+      <label for="numero">Numero de telefono</label>
+      <input
+        type="number"
+        name="numero"
+        id="numero"
+        placeholder="numero"
+        maxlength="10"
+        required
+      />
+      <br /><br />
+
+      <label for="peticion">Petición:</label>
+      <select name="peticion" id="peticion" required>
+        <option value="Fallo">Fallo</option>
+        <option value="Sugerencia">Sugerencia</option>
+      </select>
+      <br /><br />
+
+      <label for="mensaje">Ahora por favor describa:</label>
+      <textarea
+        name="mensaje"
+        id="mensaje"
+        cols="30"
+        rows="5"
+        placeholder="Escriba su mensaje"
+        required
+      ></textarea>
+      <br /><br />
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>

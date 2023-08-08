@@ -1,0 +1,35 @@
+{
+  "name": "rextra-formulary",
+  "version": "2.1.0",
+  "description": "Formulario que funciona con wweb.js y gmail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yukyshiram/RExtra-Formulary.git"
+  },
+  "keywords": [
+    "formulario",
+    "wweb.js",
+    "nodemail",
+    "node.js",
+    "express",
+    "CX_Project"
+  ],
+  "author": "Sr. Courtesy (Im_JVallejo)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment-timezone": "^0.5.43",
+    "nodemailer": "^6.9.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.19.5"
+  },
+  "bugs": {
+    "url": "https://github.com/Yukyshiram/RExtra-Formulary/issues"
+  },
+  "homepage": "https://github.com/Yukyshiram/RExtra-Formulary#readme"
+}
